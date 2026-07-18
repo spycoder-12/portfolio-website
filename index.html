@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Wedd Photography..</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;1,9..144,400&family=Work+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <svg class="grain" width="100%" height="100%">
+    <filter id="n">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" />
+    </filter>
+    <rect width="100%" height="100%" filter="url(#n)" />
+  </svg>
+
+  <nav id="nav">
+    <div class="logo" style="font-size: 35px; font-weight : bold">Nikhil <b>Verma..</b></div>
+    <div class="nav-links">
+      <a href="#work" style="font-size: 20px;">Work</a>
+      <a href="#about" style="font-size: 20px;">About</a>
+      <a href="#services" style="font-size: 20px;">Services</a>
+      <!-- <a href="#words" style="font-size: 20px;">Words</a> -->
+      <a href="#contact" style="font-size: 20px;">Contact</a>
+      <span class="roll-counter mono" id="rollCounter" style="font-size: 20px;">01 / 05</span>
+    </div>
+    <button class="nav-burger" id="burger">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <header class="hero">
+    <div class="light-leak"></div>
+    <span class="hero-frame-tag mono">NO. 001 — EST. 2013</span>
+    <div class="hero-content">
+      <h1>Light,<br /><em>held</em> still.</h1>
+      <p class="hero-tagline" style="font-size : 30px">
+        Documentary-style wedding, portrait, and editorial photography — built
+        on patience, natural light, and the moments people forget to perform
+        for.
+      </p>
+      <div class="hero-meta">
+        <span>INDIA, OR</span>
+        <span>AVAILABLE IN INDIA</span>
+        <span>BOOKING 2026–27</span>
+      </div>
+    </div>
+    <div class="scroll-cue">SCROLL</div>
+  </header>
+
+  <section id="work">
+    <div class="section-head reveal">
+      <div>
+        <span class="section-num mono">002 / ARCHIVE</span>
+        <h2 class="section-title">Selected Work</h2>
+      </div>
+      <div class="filters" id="filters">
+        <button class="filter-btn active" data-cat="all" style="font-size: 20px;">All</button>
+        <button class="filter-btn" data-cat="weddings" style="font-size: 20px;">Weddings</button>
+        <button class="filter-btn" data-cat="portraits" style="font-size: 20px;">Portraits</button>
+        <button class="filter-btn" data-cat="landscapes" style="font-size: 20px;">Landscapes</button>
+        <button class="filter-btn" data-cat="events" style="font-size: 20px;">Events</button>
+        <button class="filter-btn" data-cat="products" style="font-size: 20px;">Products</button>
+      </div>
+    </div>
+
+    <div class="gallery reveal" id="gallery"></div>
+  </section>
+
+  <div class="sprocket reveal">
+    <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <section id="about">
+    <div class="section-head reveal">
+      <div>
+        <span class="section-num mono">003 / PROFILE</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+    </div>
+    <div class="about-grid reveal">
+      <div class="about-photo">
+        <img src="https://picsum.photos/seed/voss-portrait/700/900" alt="Mira Voss" />
+      </div>
+      <div class="about-text">
+        <p style="font-size: 50px; font-weight: bold;">Welcome to my visual journal.</p>
+        <p style="font-size: 25px;">I’m <span style="font-weight: bold;">Nikhil Verma</span>, a photographer and
+          cinematographer dedicated to the art of candid storytelling. My
+          approach combines the eagle-eye precision of a candid photographer
+          with the sweeping, emotional depth of a filmmaker. I believe every
+          project—be it a film or a photo series—deserves a unique narrative
+          voice. By blending into the background, I am able to capture honest
+          emotions, vibrant energy, and genuine interactions that define who
+          you are. Explore the portfolio, and let's collaborate to bring your
+          vision to light.
+        </p>
+        <blockquote class="about-quote" ; style="font-size : 50px;">
+          "A good photograph isn't taken. It's noticed."
+        </blockquote>
+        <div class="about-stats">
+          <div>
+            <span class="num" style="font-size: 50px; font-weight: 400; display: block; line-height: 1;">220+</span>
+            <span class="lbl" style="font-size: 25px;">Weddings Shot</span>
+          </div>
+          <div>
+            <span class="num" style="font-size: 50px; font-weight: 400; display: block; line-height: 1;">10</span>
+            <span class="lbl" style="font-size: 25px;">Years Practicing</span>
+          </div>
+          <div>
+            <span class="num" style="font-size: 50px; font-weight: 400; display: block; line-height: 1;">4</span>
+            <span class="lbl" style="font-size: 25px;">Continents Worked</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <div class="sprocket reveal">
+    <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <section id="services">
+    <div class="section-head reveal">
+      <div>
+        <span class="section-num mono">004 / PACKAGES</span>
+        <h2 class="section-title">Services</h2>
+      </div>
+    </div>
+    <div class="services reveal">
+      <div class="service">
+        <span class="sroll mono">ROLL 01</span>
+        <h3>The Elopement</h3>
+        <p>
+          Intimate ceremonies, 2–20 guests. of coverage, one
+          photographer, a same-week sneak peek so you're not waiting months
+          for the feeling to come back.
+        </p>
+        <div class="price">4000 <span>Full-day option available</span></div>
+      </div>
+      <div class="service featured">
+        <span class="sroll mono">ROLL 02</span>
+        <h3>The Full Day</h3>
+        <p>
+          Getting-ready through last dance. Two photographers, full edited
+          gallery, a printed contact-sheet keepsake box mailed to your door.
+        </p>
+        <div class="price">8000 <span>Full Function coverage</span></div>
+      </div>
+      <div class="service">
+        <span class="sroll mono">ROLL 03</span>
+        <h3>Editorial &amp; Portrait</h3>
+        <p>
+          Branding sessions, engagement portraits, and small-batch product
+          work for makers who care how their work is seen.
+        </p>
+        <div class="price">From 3000 <span>Half-day session</span></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="sprocket reveal">
+    <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <!-- <section id="words">
+    <div class="section-head reveal">
+      <div>
+        <span class="section-num mono">005 / RECORD</span>
+        <h2 class="section-title">Kind Words</h2>
+      </div>
+    </div>
+    <div class="testimonials reveal">
+      <div class="testimonial">
+        <p>
+          Mira disappeared into the day. We forgot she was there half the time
+          — and somehow the gallery caught every real moment we had.
+        </p>
+        <div class="who">
+          RENA &amp; JULES <span>Married, Sept 2025</span>
+        </div>
+      </div>
+      <div class="testimonial">
+        <p>
+          I've hired a lot of photographers for campaign work. Nobody else
+          gives you the quiet, unposed frame that ends up being the one
+          everyone shares.
+        </p>
+        <div class="who">
+          DANIEL OKAFOR <span>Creative Director, Fielding Co.</span>
+        </div>
+      </div>
+      <div class="testimonial">
+        <p>
+          The contact sheet box she sent after was more meaningful than half
+          our other wedding gifts combined. It sits on our shelf, not in a
+          drive somewhere.
+        </p>
+        <div class="who">PRIYA SHARMA <span>Married, June 2025</span></div>
+      </div>
+    </div>
+  </section> -->
+
+  <section id="contact">
+    <div class="section-head reveal">
+      <div>
+        <span class="section-num mono" style="font-size: large;">005 / CONTACT</span>
+        <h2 class="section-title">Let's Talk</h2>
+      </div>
+    </div>
+    <div class="contact-wrap reveal">
+      <div class="contact-info">
+        <h2 style="font-size: 40px;">Tell me about your day.</h2>
+        <p style="font-size: 20px;">
+          Send a few details — the date, the place, what matters most to you
+          about it — and I'll get back to you within two business days with
+          availability.
+        </p>
+        <div class="direct" style="font-size: 20px;">theweddbooks@gmail.com<br />+91 9621149968</div>
+        <div class="socials">
+          <a href="https://www.instagram.com/nikhilverma911/?hl=en" target="_blank">
+            Instagram
+          </a>
+
+          <a href="https://www.pinterest.com/your_username/" target="_blank">
+            Pinterest
+          </a>
+        </div>
+      </div>
+      <form onsubmit="handleSubmit(event)">
+        <div class="field">
+          <label for="fname" style="font-size: 18px;">Name</label>
+          <input id="fname" type="text" required />
+        </div>
+        <div class="field">
+          <label for="femail" style="font-size: 18px;">Email</label>
+          <input id="femail" type="email" required />
+        </div>
+        <div class="field">
+          <label for="fmsg" style="font-size: 18px;">Message</label>
+          <textarea id="fmsg" required></textarea>
+        </div>
+        <div class="field">
+          <label for="fdate" style="font-size: 18px;">Event date (optional)</label>
+          <input id="fdate" type="text" placeholder="e.g. Oct 2026" />
+        </div>
+        <!-- Honeypot: hidden from real users, bots that fill every field trip this -->
+        <input type="text" id="fwebsite" name="website" autocomplete="off" tabindex="-1"
+          style="position:absolute; left:-9999px; opacity:0;" />
+        <button class="send-btn" type="submit">Send Message</button>
+        <p id="formStatus" class="mono" style="margin-top:0.8rem; font-size:0.75rem; color:var(--grey);"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 M. THE WEDD PHOTOGRAPHY — LUCKNOW, OR</p>
+    <p class="mono">SHOT ON FILM &amp; DIGITAL — DEVELOPED WITH CARE</p>
+  </footer>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lbClose">✕</button>
+    <img id="lbImg" src="" alt="" />
+    <div class="lightbox-cap mono" id="lbCap"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
